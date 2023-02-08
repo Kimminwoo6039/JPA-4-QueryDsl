@@ -293,7 +293,7 @@ class MemberTest {
 
         List<Member> result = queryFactory
                 .select(member)
-                .from(member, team) // from 절 나열
+                .from(member, team) // from 절 나열1
                 .where(member.username.eq(team.name))
                 .fetch();
 
