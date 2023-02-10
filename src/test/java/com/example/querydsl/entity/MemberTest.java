@@ -100,7 +100,7 @@ class MemberTest {
          member.age.lt(30); // age < 30
          member.username.like("member%"); //like 검색
          member.username.contains("member"); // like ‘%member%’ 검색
-         member.username.startsWith("member"); //like ‘member%’ 검색
+         member.username.startsWith("member"); //like ‘member%’ 검색1
      }
 
 
